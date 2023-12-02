@@ -5,10 +5,10 @@
     
     <entry>
       <title>测试文章</title>
-      <link href="/2023/12/02/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/12/02/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      <link href="/2023/12/02/Test/"/>
+      <url>/2023/12/02/Test/</url>
       
-        <content type="html"><![CDATA[<p>这是一个测试文章。如果你能在主站看到此文章，请告诉我。</p>]]></content>
+        <content type="html"><![CDATA[<p>这是一个测试文章。如果你能在主站看到此文章，请告诉我。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello world!</span><br></pre></td></tr></table></figure><p>文章结束</p>]]></content>
       
       
       
