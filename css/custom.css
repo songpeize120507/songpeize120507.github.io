@@ -28,21 +28,11 @@
 /* 翻页按钮居中 */
 #pagination {
     width: 100%;
-    margin: auto;
+    margin: auto !important;
+
 }
 
-@font-face {
-    /* 为载入的字体取名字(随意) */
-    font-family: 'KXWK';
-    /* 字体文件地址(相对或者绝对路径都可以) */
-    src: url(font/KXWK.woff2);
-    /* 定义加粗样式(加粗多少) */
-    font-weight: normal;
-    /* 定义字体样式(斜体/非斜体) */
-    font-style: normal;
-    /* 定义显示样式 */
-    font-display: block;
-}
+
 
 
 /* 一级菜单居中 */
@@ -67,7 +57,7 @@
 /* 大改！黑夜霓虹灯 */
 
 
-/* 日间模式不生效 */
+/* 日间模式不生效 
 [data-theme="light"] #site-name,
 [data-theme="light"] #site-title,
 [data-theme="light"] #site-subtitle,
@@ -75,7 +65,7 @@
     animation: none;
 }
 
-/* 夜间模式生效 */
+/* 夜间模式生效 
 [data-theme="dark"] #site-name,
 [data-theme="dark"] #site-title {
     animation: light_15px 10s linear infinite;
@@ -89,7 +79,7 @@
     animation: light_5px 10s linear infinite;
 }
 
-/* 关键帧描述 */
+/* 关键帧描述 
 @keyframes light_15px {
     0% {
         text-shadow: #5636ed 0 0 15px;
@@ -218,7 +208,7 @@
 
 /* end */
 
-/* 侧边栏个人信息卡片动态渐变色 */
+/* 侧边栏个人信息卡片动态渐变色 
 #aside-content>.card-widget.card-info {
     background: linear-gradient(-45deg,
             #e8d8b9,
@@ -276,12 +266,12 @@
     }
 }
 
-/* 黑夜模式适配 */
+/* 黑夜模式适配 
 [data-theme="dark"] #aside-content>.card-widget.card-info {
     background: #191919ee;
 }
 
-/* 个人信息Follow me按钮 */
+/* 个人信息Follow me按钮 
 #aside-content>.card-widget.card-info>#card-info-btn {
     background-color: #3eb8be;
     border-radius: 8px;
